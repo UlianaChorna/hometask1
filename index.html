@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+  <table >
+    <tr class="table-title">
+      <td>Name</td>
+      <td>Created</td>
+      <td>Category</td>
+      <td>Content</td>
+      <td>Dates</td>
+      <td><i class="uil  uil-folder-plus"></i></td>
+      <td><i class="uil uil-trash"></i></td>
+    </tr>
+ 
+  </table>
+    
+    </div>
+          <div class="form">
+          <div class="form-dialog">
+            <div class="form-content">
+                <header>
+                    <p></p>
+                    <!-- <i class="uil uil-times"></i> -->
+                  </header>
+            <form action="#">
+                <div class="form__close data-close" data-close>&times;</div>
+                <div class="form__title">
+                  <label>Title</label>
+                  <input type="text" spellcheck="false">
+                </div>
+                <div class="form__title">
+                  <label>Content</label>
+                  <textarea spellcheck="false"></textarea>
+                </div>
+                <form >
+                <select id="language" >
+                  <option value="uil-shopping-cart-alt" >Task</option>
+                  <option value="uil-bright">Random Thought</option>
+                  <option value='uil uil-folder-plus'>Idea</option>
+                  <option value="uil-google-hangouts">Quote</option>
+                </select>
+              </form>
+               
+                <div class="btn_add">
+                <button class="btn btn_dark btn_min" >Add</button>
+                </div>
+              </form>
+            </div>
+        </div>
+        </div>
+      
+
+        <div class="container wrapper">
+          <div id="notesWrapper">
+            <div class="add-box">
+              <button data-form class="btn btn_white ">
+                  New Note
+              </button>
+            </div>
+          </div>
+          <div  id="category">
+          <table  class="table_category">
+            <tr class="table-title">
+              <td>Note Category</td>
+              <td>Arctive</td>
+              <td>Archived</td>
+              
+            </tr>
+         
+          </table>
+        </div>
+        <script src="main.js" type="text/javascript"></script> 
+        <script src = "category.js" type="text/javascript"></script>
+
+</body>
+<footer>
+  
+  
+</footer>
+
+</html>
