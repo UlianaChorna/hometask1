@@ -23,6 +23,9 @@ body{
     overflow: hidden;
     background-color: rgba(0, 0, 0, .5)
   }
+  .update_form{
+    display: none;
+  }
   
   .form__dialog {
     max-width: 500px;
@@ -93,13 +96,24 @@ body{
     outline: 0;
     
   }
-  
+  .btn_submit{ 
+    display: block;
+    width: 280px;
+    margin: 0 auto;
+    background-color: #303030;
+    color: #fff;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+
+  }
   .btn_white {
     background-color: #fff;
     position: absolute;
     left: 89%;
    
   }
+  
   
   .btn_dark {
     background-color: #303030;
@@ -136,10 +150,10 @@ body{
   max-height: 165px;
   overflow-y: auto;
 }
-.details{
+/* .details{
   display: flex;
-  justify-content: space-around;
-}
+  justify-content: space-between;
+} */
 .table-title{
     background-color: #95A5A6;
     font-size: 14px;
@@ -181,4 +195,44 @@ margin-top: 40px;
   transition: all 0.5s ease;
   width: 93%;
   margin-bottom: 10px;
+}
+.icon{
+  margin-left: 0px;
+
+}
+
+  .title {
+    width: 80px;
+    text-align: center;
+}
+.date{
+  width: 180px;
+    text-align: center;
+}
+.categories{
+  width: 210px;
+  text-align: center;
+}
+.content{
+  width: 186px;
+    text-align: center;
+}
+.dates{
+  width: 110px;
+    text-align: center;
+}
+.note_categoty{
+  width: 420px;
+  text-align: center;
+}
+.active{
+  width: 220px;
+  text-align: center;
+}
+.archived{
+  width: 260px;
+  text-align: center;
+}
+#language{
+  display: block;
 }

@@ -34,11 +34,11 @@
                 <div class="form__close data-close" data-close>&times;</div>
                 <div class="form__title">
                   <label>Title</label>
-                  <input type="text" spellcheck="false">
+                  <input class="title" type="text" spellcheck="false">
                 </div>
                 <div class="form__title">
                   <label>Content</label>
-                  <textarea spellcheck="false"></textarea>
+                  <textarea class="description" spellcheck="false"></textarea>
                 </div>
                 <form >
                 <select id="language" >
@@ -47,11 +47,13 @@
                   <option value='uil uil-folder-plus'>Idea</option>
                   <option value="uil-google-hangouts">Quote</option>
                 </select>
-              </form>
                
-                <div class="btn_add">
+              </form>
+              <input type="date" class='datePicker' />
+                <div class="btn_submit">
                 <button class="btn btn_dark btn_min" >Add</button>
                 </div>
+                
               </form>
             </div>
         </div>

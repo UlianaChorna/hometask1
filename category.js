@@ -13,15 +13,15 @@ function showCategories() {
         let active = categoryNotes.filter(note => !note.isArchived).length;
         let archived = categoryNotes.filter(note => note.isArchived).length;
         
-        let liTag = `<li class="category">
-                        <div class="details">
-                            <div>${category}</div>
-                            <span>${active}</span>
-                            <span>${archived}</span>
+        let liTag = `<table class="category">
+                        <trclass="details">
+                            <td class ="note_categoty">${category}</td>
+                            <td class="active">${active}</td>
+                            <td class="archived"> ${archived}</td>
                              
-                        </div>
+                        </trclass=>
                        
-                    </li>`;
+                    </table>`;
                  
                     d1.insertAdjacentHTML("afterend", liTag);
                     
